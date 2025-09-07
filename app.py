@@ -6,15 +6,14 @@ from Bio import SeqIO
 from Bio.Blast import NCBIXML
 import io
 
-# --- Configuration ---
+# Configuration
 st.set_page_config(
     page_title="eDNA Taxonomy Prototype",
     page_icon="🧬",
     layout="wide"
 )
 
-# --- Helper Functions ---
-
+# Helper Functions
 def parse_fasta(uploaded_file):
     """
     Parses an uploaded FASTA file and returns the first sequence.
@@ -116,8 +115,7 @@ def run_blast(sequence):
         st.error(f"An unexpected error occurred during the BLAST process: {e}")
         return None
 
-# --- Streamlit UI ---
-
+# Streamlit UI
 st.title("🧬 eDNA Taxonomy Prototype")
 st.write(
     "Upload a FASTA file containing a single DNA sequence to identify its taxonomy "
