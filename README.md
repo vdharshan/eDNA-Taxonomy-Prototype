@@ -95,8 +95,7 @@ How similar your DNA is to the database sequence:
 
 ## 🔬 Use Cases
 
-- **Biodiversity surveys** - Identify species in water or soil samples
-- **Food authenticity** - Verify what's actually in processed foods
+- **Biodiversity surveys** - Identify species in deep-water and shallow water samples
 - **Conservation research** - Monitor endangered species populations
 - **Educational projects** - Learn about DNA analysis and bioinformatics
 - **Quality control** - Confirm lab sample identities
